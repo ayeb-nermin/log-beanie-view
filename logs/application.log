@@ -1,0 +1,914 @@
+2024-09-17 12:38:54 - Starting LogBeanieViewApplication using Java 17.0.12 with PID 6624 (C:\Users\nermine.alayeb\Desktop\LogBeanieView\target\classes started by nermine.alayeb in C:\Users\nermine.alayeb\Desktop\LogBeanieView)
+2024-09-17 12:38:54 - No active profile set, falling back to 1 default profile: "default"
+2024-09-17 12:38:54 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-09-17 12:39:03 - Tomcat initialized with port 8080 (http)
+2024-09-17 12:39:03 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-09-17 12:39:03 - Starting service [Tomcat]
+2024-09-17 12:39:03 - Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-17 12:39:03 - Initializing Spring embedded WebApplicationContext
+2024-09-17 12:39:03 - Root WebApplicationContext: initialization completed in 9508 ms
+2024-09-17 12:39:03 - Mapping filters: characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2024-09-17 12:39:03 - Mapping servlets: dispatcherServlet urls=[/]
+2024-09-17 12:39:03 - 3 mappings in 'requestMappingHandlerMapping'
+2024-09-17 12:39:03 - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2024-09-17 12:39:03 - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-09-17 12:39:03 - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-09-17 12:39:04 - LiveReload server is running on port 35729
+2024-09-17 12:39:04 - Starting ProtocolHandler ["http-nio-8080"]
+2024-09-17 12:39:04 - Tomcat started on port 8080 (http) with context path '/'
+2024-09-17 12:39:04 - Started LogBeanieViewApplication in 10.345 seconds (process running for 10.847)
+2024-09-17 12:39:04 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-17 12:39:04 - Initializing Servlet 'dispatcherServlet'
+2024-09-17 12:39:04 - Detected StandardServletMultipartResolver
+2024-09-17 12:39:04 - Detected AcceptHeaderLocaleResolver
+2024-09-17 12:39:04 - Detected FixedThemeResolver
+2024-09-17 12:39:04 - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@3a529379
+2024-09-17 12:39:04 - Detected org.springframework.web.servlet.support.SessionFlashMapManager@d46bf6d
+2024-09-17 12:39:04 - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2024-09-17 12:39:04 - Completed initialization in 2 ms
+2024-09-17 12:39:04 - GET "/view-logs", parameters={}
+2024-09-17 12:39:04 - Mapped to LogBeanieView.LogBeanieView.controllers.LogViewController#viewLogs(Model)
+2024-09-17 12:39:04 - Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/png, image/svg+xml, application/xml;q=0.9, */*;q=0.8]
+2024-09-17 12:39:04 - Completed 200 OK
+2024-09-17 12:39:04 - GET "/css/styles.css", parameters={}
+2024-09-17 12:39:04 - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2024-09-17 12:39:04 - Completed 200 OK
+2024-09-17 12:39:13 - GET "/view-logs", parameters={}
+2024-09-17 12:39:13 - Mapped to LogBeanieView.LogBeanieView.controllers.LogViewController#viewLogs(Model)
+2024-09-17 12:39:13 - Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/png, image/svg+xml, application/xml;q=0.9, */*;q=0.8]
+2024-09-17 12:39:13 - Completed 200 OK
+2024-09-17 12:39:13 - GET "/css/styles.css", parameters={}
+2024-09-17 12:39:13 - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2024-09-17 12:39:13 - Completed 200 OK
+2024-09-17 12:39:15 - GET "/view-logs", parameters={}
+2024-09-17 12:39:15 - Mapped to LogBeanieView.LogBeanieView.controllers.LogViewController#viewLogs(Model)
+2024-09-17 12:39:15 - Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/png, image/svg+xml, application/xml;q=0.9, */*;q=0.8]
+2024-09-17 12:39:15 - Completed 200 OK
+2024-09-17 12:39:15 - GET "/css/styles.css", parameters={}
+2024-09-17 12:39:15 - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2024-09-17 12:39:15 - Completed 200 OK
+2024-09-17 12:39:15 - GET "/view-logs", parameters={}
+2024-09-17 12:39:15 - Mapped to LogBeanieView.LogBeanieView.controllers.LogViewController#viewLogs(Model)
+2024-09-17 12:39:15 - Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/png, image/svg+xml, application/xml;q=0.9, */*;q=0.8]
+2024-09-17 12:39:15 - Completed 200 OK
+2024-09-17 12:39:15 - GET "/css/styles.css", parameters={}
+2024-09-17 12:39:15 - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2024-09-17 12:39:15 - Completed 200 OK
+2024-09-17 12:39:15 - GET "/view-logs", parameters={}
+2024-09-17 12:39:15 - Mapped to LogBeanieView.LogBeanieView.controllers.LogViewController#viewLogs(Model)
+2024-09-17 12:39:15 - Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/png, image/svg+xml, application/xml;q=0.9, */*;q=0.8]
+2024-09-17 12:39:16 - Completed 200 OK
+2024-09-17 12:39:16 - GET "/css/styles.css", parameters={}
+2024-09-17 12:39:16 - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2024-09-17 12:39:16 - Completed 200 OK
+2024-09-17 12:39:16 - GET "/view-logs", parameters={}
+2024-09-17 12:39:16 - Mapped to LogBeanieView.LogBeanieView.controllers.LogViewController#viewLogs(Model)
+2024-09-17 12:39:16 - Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/png, image/svg+xml, application/xml;q=0.9, */*;q=0.8]
+2024-09-17 12:39:16 - Completed 200 OK
+2024-09-17 12:39:16 - GET "/css/styles.css", parameters={}
+2024-09-17 12:39:16 - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2024-09-17 12:39:16 - Completed 200 OK
+2024-09-17 12:39:20 - GET "/view-logs", parameters={}
+2024-09-17 12:39:20 - Mapped to LogBeanieView.LogBeanieView.controllers.LogViewController#viewLogs(Model)
+2024-09-17 12:39:20 - Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/png, image/svg+xml, application/xml;q=0.9, */*;q=0.8]
+2024-09-17 12:39:20 - Completed 200 OK
+2024-09-17 12:39:20 - GET "/css/styles.css", parameters={}
+2024-09-17 12:39:20 - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2024-09-17 12:39:20 - Completed 200 OK
+2024-09-17 12:39:22 - GET "/view-logs", parameters={}
+2024-09-17 12:39:22 - Mapped to LogBeanieView.LogBeanieView.controllers.LogViewController#viewLogs(Model)
+2024-09-17 12:39:22 - Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/png, image/svg+xml, application/xml;q=0.9, */*;q=0.8]
+2024-09-17 12:39:22 - Completed 200 OK
+2024-09-17 12:39:23 - GET "/css/styles.css", parameters={}
+2024-09-17 12:39:23 - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2024-09-17 12:39:23 - Completed 200 OK
+2024-09-17 12:40:43 - Starting LogBeanieViewApplication using Java 17.0.12 with PID 32124 (C:\Users\nermine.alayeb\Desktop\LogBeanieView\target\classes started by nermine.alayeb in C:\Users\nermine.alayeb\Desktop\LogBeanieView)
+2024-09-17 12:40:43 - No active profile set, falling back to 1 default profile: "default"
+2024-09-17 12:40:43 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-09-17 12:40:53 - Tomcat initialized with port 8080 (http)
+2024-09-17 12:40:53 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-09-17 12:40:53 - Starting service [Tomcat]
+2024-09-17 12:40:53 - Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-17 12:40:53 - Initializing Spring embedded WebApplicationContext
+2024-09-17 12:40:53 - Root WebApplicationContext: initialization completed in 9425 ms
+2024-09-17 12:40:53 - Mapping filters: characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2024-09-17 12:40:53 - Mapping servlets: dispatcherServlet urls=[/]
+2024-09-17 12:40:53 - 3 mappings in 'requestMappingHandlerMapping'
+2024-09-17 12:40:53 - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2024-09-17 12:40:53 - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-09-17 12:40:53 - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-09-17 12:40:53 - LiveReload server is running on port 35729
+2024-09-17 12:40:53 - Starting ProtocolHandler ["http-nio-8080"]
+2024-09-17 12:40:53 - Tomcat started on port 8080 (http) with context path '/'
+2024-09-17 12:40:53 - Started LogBeanieViewApplication in 10.324 seconds (process running for 10.902)
+2024-09-17 12:40:54 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-17 12:40:54 - Initializing Servlet 'dispatcherServlet'
+2024-09-17 12:40:54 - Detected StandardServletMultipartResolver
+2024-09-17 12:40:54 - Detected AcceptHeaderLocaleResolver
+2024-09-17 12:40:54 - Detected FixedThemeResolver
+2024-09-17 12:40:54 - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@680e2659
+2024-09-17 12:40:54 - Detected org.springframework.web.servlet.support.SessionFlashMapManager@71d56790
+2024-09-17 12:40:54 - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2024-09-17 12:40:54 - Completed initialization in 1 ms
+2024-09-17 12:40:54 - GET "/view-logs", parameters={}
+2024-09-17 12:40:54 - Mapped to LogBeanieView.LogBeanieView.controllers.LogViewController#viewLogs(Model)
+2024-09-17 12:40:54 - Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/png, image/svg+xml, application/xml;q=0.9, */*;q=0.8]
+2024-09-17 12:40:54 - [THYMELEAF][http-nio-8080-exec-2] Exception processing template "logs": An error happened during template parsing (template: "class path resource [templates/logs.html]" - line 15, col 14)
+org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates/logs.html]" - line 15, col 14)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:239)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:666)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1103)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1077)
+	at org.thymeleaf.spring6.view.ThymeleafView.renderFragment(ThymeleafView.java:372)
+	at org.thymeleaf.spring6.view.ThymeleafView.render(ThymeleafView.java:192)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1432)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1168)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1106)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:384)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: org.attoparser.ParseException: (Line = 15, Column = 14) Malformed markup: Attribute "th:class" appears more than once in element
+	at org.attoparser.MarkupEventProcessorHandler.handleAttribute(MarkupEventProcessorHandler.java:549)
+	at org.attoparser.ParsingAttributeSequenceUtil.parseAttributeSequence(ParsingAttributeSequenceUtil.java:300)
+	at org.attoparser.ParsingElementMarkupUtil.parseOpenElement(ParsingElementMarkupUtil.java:153)
+	at org.attoparser.MarkupParser.parseBuffer(MarkupParser.java:710)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:301)
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230)
+	... 48 common frames omitted
+2024-09-17 12:40:54 - Error rendering view [org.thymeleaf.spring6.view.ThymeleafView@160f242b]
+org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates/logs.html]" - line 15, col 14)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:239)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:666)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1103)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1077)
+	at org.thymeleaf.spring6.view.ThymeleafView.renderFragment(ThymeleafView.java:372)
+	at org.thymeleaf.spring6.view.ThymeleafView.render(ThymeleafView.java:192)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1432)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1168)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1106)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:384)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: org.attoparser.ParseException: (Line = 15, Column = 14) Malformed markup: Attribute "th:class" appears more than once in element
+	at org.attoparser.MarkupEventProcessorHandler.handleAttribute(MarkupEventProcessorHandler.java:549)
+	at org.attoparser.ParsingAttributeSequenceUtil.parseAttributeSequence(ParsingAttributeSequenceUtil.java:300)
+	at org.attoparser.ParsingElementMarkupUtil.parseOpenElement(ParsingElementMarkupUtil.java:153)
+	at org.attoparser.MarkupParser.parseBuffer(MarkupParser.java:710)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:301)
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230)
+	... 48 common frames omitted
+2024-09-17 12:40:54 - Failed to complete request: org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates/logs.html]" - line 15, col 14)
+2024-09-17 12:40:54 - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates/logs.html]" - line 15, col 14)] with root cause
+org.attoparser.ParseException: (Line = 15, Column = 14) Malformed markup: Attribute "th:class" appears more than once in element
+	at org.attoparser.MarkupEventProcessorHandler.handleAttribute(MarkupEventProcessorHandler.java:549)
+	at org.attoparser.ParsingAttributeSequenceUtil.parseAttributeSequence(ParsingAttributeSequenceUtil.java:300)
+	at org.attoparser.ParsingElementMarkupUtil.parseOpenElement(ParsingElementMarkupUtil.java:153)
+	at org.attoparser.MarkupParser.parseBuffer(MarkupParser.java:710)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:301)
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:666)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1103)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1077)
+	at org.thymeleaf.spring6.view.ThymeleafView.renderFragment(ThymeleafView.java:372)
+	at org.thymeleaf.spring6.view.ThymeleafView.render(ThymeleafView.java:192)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1432)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1168)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1106)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:384)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+2024-09-17 12:40:54 - "ERROR" dispatch for GET "/error", parameters={}
+2024-09-17 12:40:54 - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#errorHtml(HttpServletRequest, HttpServletResponse)
+2024-09-17 12:40:54 - Selected 'text/html' given [text/html, text/html;q=0.8]
+2024-09-17 12:40:54 - Exiting from "ERROR" dispatch, status 500
+2024-09-17 12:40:54 - GET "/favicon.ico", parameters={}
+2024-09-17 12:40:54 - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2024-09-17 12:40:54 - Resource not found
+2024-09-17 12:40:54 - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2024-09-17 12:40:54 - Completed 404 NOT_FOUND
+2024-09-17 12:40:54 - "ERROR" dispatch for GET "/error", parameters={}
+2024-09-17 12:40:54 - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2024-09-17 12:40:54 - Using 'application/json;q=0.5', given [image/avif, image/webp, image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5] and supported [application/json, application/*+json]
+2024-09-17 12:40:54 - Writing [{timestamp=Tue Sep 17 12:40:54 GMT+01:00 2024, status=404, error=Not Found, trace=org.springframewor (truncated)...]
+2024-09-17 12:40:54 - Exiting from "ERROR" dispatch, status 404
+2024-09-17 12:42:01 - Starting LogBeanieViewApplication using Java 17.0.12 with PID 10236 (C:\Users\nermine.alayeb\Desktop\LogBeanieView\target\classes started by nermine.alayeb in C:\Users\nermine.alayeb\Desktop\LogBeanieView)
+2024-09-17 12:42:01 - No active profile set, falling back to 1 default profile: "default"
+2024-09-17 12:42:01 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-09-17 12:42:11 - Tomcat initialized with port 8080 (http)
+2024-09-17 12:42:11 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-09-17 12:42:11 - Starting service [Tomcat]
+2024-09-17 12:42:11 - Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-17 12:42:11 - Initializing Spring embedded WebApplicationContext
+2024-09-17 12:42:11 - Root WebApplicationContext: initialization completed in 9947 ms
+2024-09-17 12:42:11 - Mapping filters: characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2024-09-17 12:42:11 - Mapping servlets: dispatcherServlet urls=[/]
+2024-09-17 12:42:11 - 3 mappings in 'requestMappingHandlerMapping'
+2024-09-17 12:42:11 - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2024-09-17 12:42:11 - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-09-17 12:42:11 - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-09-17 12:42:11 - LiveReload server is running on port 35729
+2024-09-17 12:42:11 - Starting ProtocolHandler ["http-nio-8080"]
+2024-09-17 12:42:11 - Tomcat started on port 8080 (http) with context path '/'
+2024-09-17 12:42:11 - Started LogBeanieViewApplication in 10.782 seconds (process running for 11.288)
+2024-09-17 12:42:11 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-17 12:42:11 - Initializing Servlet 'dispatcherServlet'
+2024-09-17 12:42:11 - Detected StandardServletMultipartResolver
+2024-09-17 12:42:11 - Detected AcceptHeaderLocaleResolver
+2024-09-17 12:42:11 - Detected FixedThemeResolver
+2024-09-17 12:42:11 - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@24b33dab
+2024-09-17 12:42:11 - Detected org.springframework.web.servlet.support.SessionFlashMapManager@128b68af
+2024-09-17 12:42:11 - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2024-09-17 12:42:11 - Completed initialization in 2 ms
+2024-09-17 12:42:11 - GET "/view-logs", parameters={}
+2024-09-17 12:42:11 - Mapped to LogBeanieView.LogBeanieView.controllers.LogViewController#viewLogs(Model)
+2024-09-17 12:42:11 - Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/png, image/svg+xml, application/xml;q=0.9, */*;q=0.8]
+2024-09-17 12:42:12 - GET "/css/styles.css", parameters={}
+2024-09-17 12:42:12 - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2024-09-17 12:42:12 - Completed 200 OK
+2024-09-17 12:42:12 - Completed 200 OK
+2024-09-17 12:42:12 - GET "/favicon.ico", parameters={}
+2024-09-17 12:42:12 - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2024-09-17 12:42:12 - Resource not found
+2024-09-17 12:42:12 - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2024-09-17 12:42:12 - Completed 404 NOT_FOUND
+2024-09-17 12:42:12 - "ERROR" dispatch for GET "/error", parameters={}
+2024-09-17 12:42:12 - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2024-09-17 12:42:12 - Using 'application/json;q=0.5', given [image/avif, image/webp, image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5] and supported [application/json, application/*+json]
+2024-09-17 12:42:12 - Writing [{timestamp=Tue Sep 17 12:42:12 GMT+01:00 2024, status=404, error=Not Found, trace=org.springframewor (truncated)...]
+2024-09-17 12:42:12 - Exiting from "ERROR" dispatch, status 404
+2024-09-17 12:42:36 - Starting LogBeanieViewApplication using Java 17.0.12 with PID 32880 (C:\Users\nermine.alayeb\Desktop\LogBeanieView\target\classes started by nermine.alayeb in C:\Users\nermine.alayeb\Desktop\LogBeanieView)
+2024-09-17 12:42:36 - No active profile set, falling back to 1 default profile: "default"
+2024-09-17 12:42:36 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-09-17 12:42:45 - Tomcat initialized with port 8080 (http)
+2024-09-17 12:42:45 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-09-17 12:42:45 - Starting service [Tomcat]
+2024-09-17 12:42:45 - Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-17 12:42:45 - Initializing Spring embedded WebApplicationContext
+2024-09-17 12:42:45 - Root WebApplicationContext: initialization completed in 9436 ms
+2024-09-17 12:42:45 - Mapping filters: characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2024-09-17 12:42:45 - Mapping servlets: dispatcherServlet urls=[/]
+2024-09-17 12:42:46 - 3 mappings in 'requestMappingHandlerMapping'
+2024-09-17 12:42:46 - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2024-09-17 12:42:46 - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-09-17 12:42:46 - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-09-17 12:42:46 - LiveReload server is running on port 35729
+2024-09-17 12:42:46 - Starting ProtocolHandler ["http-nio-8080"]
+2024-09-17 12:42:46 - Tomcat started on port 8080 (http) with context path '/'
+2024-09-17 12:42:46 - Started LogBeanieViewApplication in 10.233 seconds (process running for 10.721)
+2024-09-17 12:42:46 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-17 12:42:46 - Initializing Servlet 'dispatcherServlet'
+2024-09-17 12:42:46 - Detected StandardServletMultipartResolver
+2024-09-17 12:42:46 - Detected AcceptHeaderLocaleResolver
+2024-09-17 12:42:46 - Detected FixedThemeResolver
+2024-09-17 12:42:46 - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@f1f3f74
+2024-09-17 12:42:46 - Detected org.springframework.web.servlet.support.SessionFlashMapManager@24d88eba
+2024-09-17 12:42:46 - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2024-09-17 12:42:46 - Completed initialization in 1 ms
+2024-09-17 12:42:46 - GET "/view-logs", parameters={}
+2024-09-17 12:42:46 - Mapped to LogBeanieView.LogBeanieView.controllers.LogViewController#viewLogs(Model)
+2024-09-17 12:42:46 - Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/png, image/svg+xml, application/xml;q=0.9, */*;q=0.8]
+2024-09-17 12:42:46 - GET "/css/styles.css", parameters={}
+2024-09-17 12:42:46 - Completed 200 OK
+2024-09-17 12:42:46 - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2024-09-17 12:42:46 - Completed 200 OK
+2024-09-17 12:42:55 - Starting LogBeanieViewApplication using Java 17.0.12 with PID 6176 (C:\Users\nermine.alayeb\Desktop\LogBeanieView\target\classes started by nermine.alayeb in C:\Users\nermine.alayeb\Desktop\LogBeanieView)
+2024-09-17 12:42:55 - No active profile set, falling back to 1 default profile: "default"
+2024-09-17 12:42:55 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-09-17 12:43:05 - Tomcat initialized with port 8080 (http)
+2024-09-17 12:43:05 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-09-17 12:43:05 - Starting service [Tomcat]
+2024-09-17 12:43:05 - Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-17 12:43:05 - Initializing Spring embedded WebApplicationContext
+2024-09-17 12:43:05 - Root WebApplicationContext: initialization completed in 10105 ms
+2024-09-17 12:43:05 - Mapping filters: characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2024-09-17 12:43:05 - Mapping servlets: dispatcherServlet urls=[/]
+2024-09-17 12:43:06 - 3 mappings in 'requestMappingHandlerMapping'
+2024-09-17 12:43:06 - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2024-09-17 12:43:06 - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-09-17 12:43:06 - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-09-17 12:43:06 - LiveReload server is running on port 35729
+2024-09-17 12:43:06 - Starting ProtocolHandler ["http-nio-8080"]
+2024-09-17 12:43:06 - Tomcat started on port 8080 (http) with context path '/'
+2024-09-17 12:43:06 - Started LogBeanieViewApplication in 11.208 seconds (process running for 11.71)
+2024-09-17 12:43:34 - Starting LogBeanieViewApplication using Java 17.0.12 with PID 25264 (C:\Users\nermine.alayeb\Desktop\LogBeanieView\target\classes started by nermine.alayeb in C:\Users\nermine.alayeb\Desktop\LogBeanieView)
+2024-09-17 12:43:34 - No active profile set, falling back to 1 default profile: "default"
+2024-09-17 12:43:34 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-09-17 12:43:44 - Tomcat initialized with port 8080 (http)
+2024-09-17 12:43:44 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-09-17 12:43:44 - Starting service [Tomcat]
+2024-09-17 12:43:44 - Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-17 12:43:44 - Initializing Spring embedded WebApplicationContext
+2024-09-17 12:43:44 - Root WebApplicationContext: initialization completed in 10107 ms
+2024-09-17 12:43:45 - Mapping filters: characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2024-09-17 12:43:45 - Mapping servlets: dispatcherServlet urls=[/]
+2024-09-17 12:43:45 - 3 mappings in 'requestMappingHandlerMapping'
+2024-09-17 12:43:45 - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2024-09-17 12:43:45 - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-09-17 12:43:45 - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-09-17 12:43:45 - LiveReload server is running on port 35729
+2024-09-17 12:43:45 - Starting ProtocolHandler ["http-nio-8080"]
+2024-09-17 12:43:45 - Tomcat started on port 8080 (http) with context path '/'
+2024-09-17 12:43:45 - Started LogBeanieViewApplication in 10.934 seconds (process running for 11.451)
+2024-09-17 12:43:45 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-17 12:43:45 - Initializing Servlet 'dispatcherServlet'
+2024-09-17 12:43:45 - Detected StandardServletMultipartResolver
+2024-09-17 12:43:45 - Detected AcceptHeaderLocaleResolver
+2024-09-17 12:43:45 - Detected FixedThemeResolver
+2024-09-17 12:43:45 - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@f5a6398
+2024-09-17 12:43:45 - Detected org.springframework.web.servlet.support.SessionFlashMapManager@24d88eba
+2024-09-17 12:43:45 - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2024-09-17 12:43:45 - Completed initialization in 2 ms
+2024-09-17 12:43:45 - GET "/view-logs", parameters={}
+2024-09-17 12:43:45 - Mapped to LogBeanieView.LogBeanieView.controllers.LogViewController#viewLogs(Model)
+2024-09-17 12:43:45 - Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/png, image/svg+xml, application/xml;q=0.9, */*;q=0.8]
+2024-09-17 12:43:45 - GET "/css/styles.css", parameters={}
+2024-09-17 12:43:45 - Completed 200 OK
+2024-09-17 12:43:45 - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2024-09-17 12:43:45 - Completed 200 OK
+2024-09-17 12:43:45 - GET "/favicon.ico", parameters={}
+2024-09-17 12:43:45 - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2024-09-17 12:43:45 - Resource not found
+2024-09-17 12:43:45 - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2024-09-17 12:43:45 - Completed 404 NOT_FOUND
+2024-09-17 12:43:46 - "ERROR" dispatch for GET "/error", parameters={}
+2024-09-17 12:43:46 - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2024-09-17 12:43:46 - Using 'application/json;q=0.5', given [image/avif, image/webp, image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5] and supported [application/json, application/*+json]
+2024-09-17 12:43:46 - Writing [{timestamp=Tue Sep 17 12:43:46 GMT+01:00 2024, status=404, error=Not Found, trace=org.springframewor (truncated)...]
+2024-09-17 12:43:46 - Exiting from "ERROR" dispatch, status 404
+2024-09-17 12:44:10 - Starting LogBeanieViewApplication using Java 17.0.12 with PID 12348 (C:\Users\nermine.alayeb\Desktop\LogBeanieView\target\classes started by nermine.alayeb in C:\Users\nermine.alayeb\Desktop\LogBeanieView)
+2024-09-17 12:44:10 - No active profile set, falling back to 1 default profile: "default"
+2024-09-17 12:44:10 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-09-17 12:44:20 - Tomcat initialized with port 8080 (http)
+2024-09-17 12:44:20 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-09-17 12:44:20 - Starting service [Tomcat]
+2024-09-17 12:44:20 - Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-17 12:44:20 - Initializing Spring embedded WebApplicationContext
+2024-09-17 12:44:20 - Root WebApplicationContext: initialization completed in 9885 ms
+2024-09-17 12:44:20 - Mapping filters: characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2024-09-17 12:44:20 - Mapping servlets: dispatcherServlet urls=[/]
+2024-09-17 12:44:21 - 3 mappings in 'requestMappingHandlerMapping'
+2024-09-17 12:44:21 - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2024-09-17 12:44:21 - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-09-17 12:44:21 - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-09-17 12:44:21 - LiveReload server is running on port 35729
+2024-09-17 12:44:21 - Starting ProtocolHandler ["http-nio-8080"]
+2024-09-17 12:44:21 - Tomcat started on port 8080 (http) with context path '/'
+2024-09-17 12:44:21 - Started LogBeanieViewApplication in 10.724 seconds (process running for 11.193)
+2024-09-17 12:44:22 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-17 12:44:22 - Initializing Servlet 'dispatcherServlet'
+2024-09-17 12:44:22 - Detected StandardServletMultipartResolver
+2024-09-17 12:44:22 - Detected AcceptHeaderLocaleResolver
+2024-09-17 12:44:22 - Detected FixedThemeResolver
+2024-09-17 12:44:22 - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@341428d4
+2024-09-17 12:44:22 - Detected org.springframework.web.servlet.support.SessionFlashMapManager@56733d9f
+2024-09-17 12:44:22 - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2024-09-17 12:44:22 - Completed initialization in 2 ms
+2024-09-17 12:44:22 - GET "/view-logs", parameters={}
+2024-09-17 12:44:22 - Mapped to LogBeanieView.LogBeanieView.controllers.LogViewController#viewLogs(Model)
+2024-09-17 12:44:22 - Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/png, image/svg+xml, application/xml;q=0.9, */*;q=0.8]
+2024-09-17 12:44:22 - GET "/css/styles.css", parameters={}
+2024-09-17 12:44:22 - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2024-09-17 12:44:22 - Completed 200 OK
+2024-09-17 12:44:22 - Completed 200 OK
+2024-09-17 12:44:22 - GET "/favicon.ico", parameters={}
+2024-09-17 12:44:22 - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2024-09-17 12:44:22 - Resource not found
+2024-09-17 12:44:22 - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2024-09-17 12:44:22 - Completed 404 NOT_FOUND
+2024-09-17 12:44:22 - "ERROR" dispatch for GET "/error", parameters={}
+2024-09-17 12:44:22 - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2024-09-17 12:44:22 - Using 'application/json;q=0.5', given [image/avif, image/webp, image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5] and supported [application/json, application/*+json]
+2024-09-17 12:44:22 - Writing [{timestamp=Tue Sep 17 12:44:22 GMT+01:00 2024, status=404, error=Not Found, trace=org.springframewor (truncated)...]
+2024-09-17 12:44:22 - Exiting from "ERROR" dispatch, status 404
+2024-09-17 12:44:31 - GET "/view-logs", parameters={}
+2024-09-17 12:44:31 - Mapped to LogBeanieView.LogBeanieView.controllers.LogViewController#viewLogs(Model)
+2024-09-17 12:44:31 - Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/png, image/svg+xml, application/xml;q=0.9, */*;q=0.8]
+2024-09-17 12:44:31 - Completed 200 OK
+2024-09-17 12:44:31 - GET "/css/styles.css", parameters={}
+2024-09-17 12:44:31 - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2024-09-17 12:44:31 - Completed 200 OK
+2024-09-17 12:44:31 - GET "/favicon.ico", parameters={}
+2024-09-17 12:44:31 - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2024-09-17 12:44:31 - Resource not found
+2024-09-17 12:44:31 - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2024-09-17 12:44:31 - Completed 404 NOT_FOUND
+2024-09-17 12:44:31 - "ERROR" dispatch for GET "/error", parameters={}
+2024-09-17 12:44:31 - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2024-09-17 12:44:31 - Using 'application/json;q=0.5', given [image/avif, image/webp, image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5] and supported [application/json, application/*+json]
+2024-09-17 12:44:31 - Writing [{timestamp=Tue Sep 17 12:44:31 GMT+01:00 2024, status=404, error=Not Found, trace=org.springframewor (truncated)...]
+2024-09-17 12:44:31 - Exiting from "ERROR" dispatch, status 404
+2024-09-17 12:45:02 - Starting LogBeanieViewApplication using Java 17.0.12 with PID 26340 (C:\Users\nermine.alayeb\Desktop\LogBeanieView\target\classes started by nermine.alayeb in C:\Users\nermine.alayeb\Desktop\LogBeanieView)
+2024-09-17 12:45:02 - No active profile set, falling back to 1 default profile: "default"
+2024-09-17 12:45:02 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-09-17 12:45:11 - Tomcat initialized with port 8080 (http)
+2024-09-17 12:45:11 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-09-17 12:45:11 - Starting service [Tomcat]
+2024-09-17 12:45:11 - Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-17 12:45:12 - Initializing Spring embedded WebApplicationContext
+2024-09-17 12:45:12 - Root WebApplicationContext: initialization completed in 9348 ms
+2024-09-17 12:45:12 - Mapping filters: characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2024-09-17 12:45:12 - Mapping servlets: dispatcherServlet urls=[/]
+2024-09-17 12:45:12 - 3 mappings in 'requestMappingHandlerMapping'
+2024-09-17 12:45:12 - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2024-09-17 12:45:12 - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-09-17 12:45:12 - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-09-17 12:45:12 - LiveReload server is running on port 35729
+2024-09-17 12:45:12 - Starting ProtocolHandler ["http-nio-8080"]
+2024-09-17 12:45:12 - Tomcat started on port 8080 (http) with context path '/'
+2024-09-17 12:45:12 - Started LogBeanieViewApplication in 10.173 seconds (process running for 10.646)
+2024-09-17 12:45:12 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-17 12:45:12 - Initializing Servlet 'dispatcherServlet'
+2024-09-17 12:45:12 - Detected StandardServletMultipartResolver
+2024-09-17 12:45:12 - Detected AcceptHeaderLocaleResolver
+2024-09-17 12:45:12 - Detected FixedThemeResolver
+2024-09-17 12:45:12 - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@3ee26e4a
+2024-09-17 12:45:12 - Detected org.springframework.web.servlet.support.SessionFlashMapManager@15d9d72e
+2024-09-17 12:45:12 - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2024-09-17 12:45:12 - Completed initialization in 2 ms
+2024-09-17 12:45:12 - GET "/view-logs", parameters={}
+2024-09-17 12:45:12 - Mapped to LogBeanieView.LogBeanieView.controllers.LogViewController#viewLogs(Model)
+2024-09-17 12:45:12 - Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/png, image/svg+xml, application/xml;q=0.9, */*;q=0.8]
+2024-09-17 12:45:13 - GET "/css/styles.css", parameters={}
+2024-09-17 12:45:13 - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2024-09-17 12:45:13 - Completed 200 OK
+2024-09-17 12:45:13 - Completed 200 OK
+2024-09-17 12:47:34 - Starting LogBeanieViewApplication using Java 17.0.12 with PID 8432 (C:\Users\nermine.alayeb\Desktop\LogBeanieView\target\classes started by nermine.alayeb in C:\Users\nermine.alayeb\Desktop\LogBeanieView)
+2024-09-17 12:47:34 - No active profile set, falling back to 1 default profile: "default"
+2024-09-17 12:47:34 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-09-17 12:47:43 - Tomcat initialized with port 8080 (http)
+2024-09-17 12:47:43 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-09-17 12:47:43 - Starting service [Tomcat]
+2024-09-17 12:47:43 - Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-17 12:47:43 - Initializing Spring embedded WebApplicationContext
+2024-09-17 12:47:43 - Root WebApplicationContext: initialization completed in 9454 ms
+2024-09-17 12:47:43 - Mapping filters: characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2024-09-17 12:47:43 - Mapping servlets: dispatcherServlet urls=[/]
+2024-09-17 12:47:44 - 3 mappings in 'requestMappingHandlerMapping'
+2024-09-17 12:47:44 - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2024-09-17 12:47:44 - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-09-17 12:47:44 - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-09-17 12:47:44 - LiveReload server is running on port 35729
+2024-09-17 12:47:44 - Starting ProtocolHandler ["http-nio-8080"]
+2024-09-17 12:47:44 - Tomcat started on port 8080 (http) with context path '/'
+2024-09-17 12:47:44 - Started LogBeanieViewApplication in 10.231 seconds (process running for 10.723)
+2024-09-17 12:47:59 - Starting LogBeanieViewApplication using Java 17.0.12 with PID 2124 (C:\Users\nermine.alayeb\Desktop\LogBeanieView\target\classes started by nermine.alayeb in C:\Users\nermine.alayeb\Desktop\LogBeanieView)
+2024-09-17 12:47:59 - No active profile set, falling back to 1 default profile: "default"
+2024-09-17 12:47:59 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-09-17 12:48:09 - Tomcat initialized with port 8080 (http)
+2024-09-17 12:48:09 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-09-17 12:48:09 - Starting service [Tomcat]
+2024-09-17 12:48:09 - Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-17 12:48:09 - Initializing Spring embedded WebApplicationContext
+2024-09-17 12:48:09 - Root WebApplicationContext: initialization completed in 9784 ms
+2024-09-17 12:48:09 - Mapping filters: characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2024-09-17 12:48:09 - Mapping servlets: dispatcherServlet urls=[/]
+2024-09-17 12:48:09 - 3 mappings in 'requestMappingHandlerMapping'
+2024-09-17 12:48:09 - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2024-09-17 12:48:09 - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-09-17 12:48:09 - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-09-17 12:48:09 - LiveReload server is running on port 35729
+2024-09-17 12:48:09 - Starting ProtocolHandler ["http-nio-8080"]
+2024-09-17 12:48:09 - Tomcat started on port 8080 (http) with context path '/'
+2024-09-17 12:48:09 - Started LogBeanieViewApplication in 10.599 seconds (process running for 11.078)
+2024-09-17 12:48:09 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-17 12:48:09 - Initializing Servlet 'dispatcherServlet'
+2024-09-17 12:48:09 - Detected StandardServletMultipartResolver
+2024-09-17 12:48:09 - Detected AcceptHeaderLocaleResolver
+2024-09-17 12:48:09 - Detected FixedThemeResolver
+2024-09-17 12:48:09 - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@7aeedcd1
+2024-09-17 12:48:09 - Detected org.springframework.web.servlet.support.SessionFlashMapManager@3d0f76d4
+2024-09-17 12:48:09 - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2024-09-17 12:48:09 - Completed initialization in 1 ms
+2024-09-17 12:48:09 - GET "/view-logs", parameters={}
+2024-09-17 12:48:09 - Mapped to LogBeanieView.LogBeanieView.controllers.LogViewController#viewLogs(Model)
+2024-09-17 12:48:09 - Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/png, image/svg+xml, application/xml;q=0.9, */*;q=0.8]
+2024-09-17 12:48:10 - GET "/css/styles.css", parameters={}
+2024-09-17 12:48:10 - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2024-09-17 12:48:10 - Completed 200 OK
+2024-09-17 12:48:10 - Completed 200 OK
+2024-09-17 12:48:57 - Starting LogBeanieViewApplication using Java 17.0.12 with PID 32288 (C:\Users\nermine.alayeb\Desktop\LogBeanieView\target\classes started by nermine.alayeb in C:\Users\nermine.alayeb\Desktop\LogBeanieView)
+2024-09-17 12:48:57 - No active profile set, falling back to 1 default profile: "default"
+2024-09-17 12:48:57 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-09-17 12:49:07 - Tomcat initialized with port 8080 (http)
+2024-09-17 12:49:07 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-09-17 12:49:07 - Starting service [Tomcat]
+2024-09-17 12:49:07 - Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-17 12:49:07 - Initializing Spring embedded WebApplicationContext
+2024-09-17 12:49:07 - Root WebApplicationContext: initialization completed in 9842 ms
+2024-09-17 12:49:07 - Mapping filters: characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2024-09-17 12:49:07 - Mapping servlets: dispatcherServlet urls=[/]
+2024-09-17 12:49:07 - 3 mappings in 'requestMappingHandlerMapping'
+2024-09-17 12:49:07 - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2024-09-17 12:49:07 - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-09-17 12:49:07 - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-09-17 12:49:08 - LiveReload server is running on port 35729
+2024-09-17 12:49:08 - Starting ProtocolHandler ["http-nio-8080"]
+2024-09-17 12:49:08 - Tomcat started on port 8080 (http) with context path '/'
+2024-09-17 12:49:08 - Started LogBeanieViewApplication in 10.67 seconds (process running for 11.135)
+2024-09-17 12:49:08 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-17 12:49:08 - Initializing Servlet 'dispatcherServlet'
+2024-09-17 12:49:08 - Detected StandardServletMultipartResolver
+2024-09-17 12:49:08 - Detected AcceptHeaderLocaleResolver
+2024-09-17 12:49:08 - Detected FixedThemeResolver
+2024-09-17 12:49:08 - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@6ec3d592
+2024-09-17 12:49:08 - Detected org.springframework.web.servlet.support.SessionFlashMapManager@245e5e94
+2024-09-17 12:49:08 - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2024-09-17 12:49:08 - Completed initialization in 1 ms
+2024-09-17 12:49:08 - GET "/view-logs", parameters={}
+2024-09-17 12:49:08 - Mapped to LogBeanieView.LogBeanieView.controllers.LogViewController#viewLogs(Model)
+2024-09-17 12:49:08 - Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/png, image/svg+xml, application/xml;q=0.9, */*;q=0.8]
+2024-09-17 12:49:08 - GET "/css/styles.css", parameters={}
+2024-09-17 12:49:08 - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2024-09-17 12:49:08 - Completed 200 OK
+2024-09-17 12:49:08 - Completed 200 OK
+2024-09-17 12:49:08 - GET "/favicon.ico", parameters={}
+2024-09-17 12:49:08 - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2024-09-17 12:49:08 - Resource not found
+2024-09-17 12:49:08 - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2024-09-17 12:49:08 - Completed 404 NOT_FOUND
+2024-09-17 12:49:09 - "ERROR" dispatch for GET "/error", parameters={}
+2024-09-17 12:49:09 - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2024-09-17 12:49:09 - Using 'application/json;q=0.5', given [image/avif, image/webp, image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5] and supported [application/json, application/*+json]
+2024-09-17 12:49:09 - Writing [{timestamp=Tue Sep 17 12:49:09 GMT+01:00 2024, status=404, error=Not Found, trace=org.springframewor (truncated)...]
+2024-09-17 12:49:09 - Exiting from "ERROR" dispatch, status 404
+2024-09-17 12:50:39 - Starting LogBeanieViewApplication using Java 17.0.12 with PID 22576 (C:\Users\nermine.alayeb\Desktop\LogBeanieView\target\classes started by nermine.alayeb in C:\Users\nermine.alayeb\Desktop\LogBeanieView)
+2024-09-17 12:50:39 - No active profile set, falling back to 1 default profile: "default"
+2024-09-17 12:50:39 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-09-17 12:50:49 - Tomcat initialized with port 8080 (http)
+2024-09-17 12:50:49 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-09-17 12:50:49 - Starting service [Tomcat]
+2024-09-17 12:50:49 - Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-17 12:50:49 - Initializing Spring embedded WebApplicationContext
+2024-09-17 12:50:49 - Root WebApplicationContext: initialization completed in 9803 ms
+2024-09-17 12:50:49 - Mapping filters: characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2024-09-17 12:50:49 - Mapping servlets: dispatcherServlet urls=[/]
+2024-09-17 12:50:49 - 3 mappings in 'requestMappingHandlerMapping'
+2024-09-17 12:50:49 - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2024-09-17 12:50:49 - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-09-17 12:50:49 - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-09-17 12:50:49 - LiveReload server is running on port 35729
+2024-09-17 12:50:49 - Starting ProtocolHandler ["http-nio-8080"]
+2024-09-17 12:50:49 - Tomcat started on port 8080 (http) with context path '/'
+2024-09-17 12:50:50 - Started LogBeanieViewApplication in 10.618 seconds (process running for 11.158)
+2024-09-17 12:50:50 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-17 12:50:50 - Initializing Servlet 'dispatcherServlet'
+2024-09-17 12:50:50 - Detected StandardServletMultipartResolver
+2024-09-17 12:50:50 - Detected AcceptHeaderLocaleResolver
+2024-09-17 12:50:50 - Detected FixedThemeResolver
+2024-09-17 12:50:50 - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@5c4d8fde
+2024-09-17 12:50:50 - Detected org.springframework.web.servlet.support.SessionFlashMapManager@3ed50eb7
+2024-09-17 12:50:50 - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2024-09-17 12:50:50 - Completed initialization in 2 ms
+2024-09-17 12:50:50 - GET "/view-logs", parameters={}
+2024-09-17 12:50:50 - Mapped to LogBeanieView.LogBeanieView.controllers.LogViewController#viewLogs(Model)
+2024-09-17 12:50:50 - Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/png, image/svg+xml, application/xml;q=0.9, */*;q=0.8]
+2024-09-17 12:50:50 - Completed 200 OK
+2024-09-17 12:50:50 - GET "/css/styles.css", parameters={}
+2024-09-17 12:50:50 - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2024-09-17 12:50:50 - Completed 200 OK
+2024-09-17 12:54:14 - Starting LogBeanieViewApplication using Java 17.0.12 with PID 16828 (C:\Users\nermine.alayeb\Desktop\log-beanie-viewer\target\classes started by nermine.alayeb in C:\Users\nermine.alayeb\Desktop\log-beanie-viewer)
+2024-09-17 12:54:14 - No active profile set, falling back to 1 default profile: "default"
+2024-09-17 12:54:14 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-09-17 12:54:24 - Tomcat initialized with port 8080 (http)
+2024-09-17 12:54:24 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-09-17 12:54:24 - Starting service [Tomcat]
+2024-09-17 12:54:24 - Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-17 12:54:24 - Initializing Spring embedded WebApplicationContext
+2024-09-17 12:54:24 - Root WebApplicationContext: initialization completed in 9523 ms
+2024-09-17 12:54:24 - Mapping filters: characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2024-09-17 12:54:24 - Mapping servlets: dispatcherServlet urls=[/]
+2024-09-17 12:54:24 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'logController': Unsatisfied dependency expressed through field 'logRepository': No qualifying bean of type 'LogBeanieView.LogBeanieView.repositories.LogRepository' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2024-09-17 12:54:24 - Stopping service [Tomcat]
+2024-09-17 12:54:24 - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-09-17 12:54:24 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field logRepository in LogBeanieView.LogBeanieView.controllers.LogController required a bean of type 'LogBeanieView.LogBeanieView.repositories.LogRepository' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'LogBeanieView.LogBeanieView.repositories.LogRepository' in your configuration.
+
+2024-09-17 12:54:36 - Starting LogBeanieViewApplication using Java 17.0.12 with PID 15960 (C:\Users\nermine.alayeb\Desktop\log-beanie-viewer\target\classes started by nermine.alayeb in C:\Users\nermine.alayeb\Desktop\log-beanie-viewer)
+2024-09-17 12:54:36 - No active profile set, falling back to 1 default profile: "default"
+2024-09-17 12:54:36 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-09-17 12:54:45 - Tomcat initialized with port 8080 (http)
+2024-09-17 12:54:45 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-09-17 12:54:45 - Starting service [Tomcat]
+2024-09-17 12:54:45 - Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-17 12:54:45 - Initializing Spring embedded WebApplicationContext
+2024-09-17 12:54:45 - Root WebApplicationContext: initialization completed in 9478 ms
+2024-09-17 12:54:45 - Mapping filters: characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2024-09-17 12:54:45 - Mapping servlets: dispatcherServlet urls=[/]
+2024-09-17 12:54:45 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'logController': Unsatisfied dependency expressed through field 'logRepository': No qualifying bean of type 'LogBeanieView.LogBeanieView.repositories.LogRepository' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2024-09-17 12:54:45 - Stopping service [Tomcat]
+2024-09-17 12:54:45 - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-09-17 12:54:45 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field logRepository in LogBeanieView.LogBeanieView.controllers.LogController required a bean of type 'LogBeanieView.LogBeanieView.repositories.LogRepository' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'LogBeanieView.LogBeanieView.repositories.LogRepository' in your configuration.
+
+2024-09-17 12:55:31 - Starting LogBeanieViewApplication using Java 17.0.12 with PID 22172 (C:\Users\nermine.alayeb\Desktop\log-beanie-viewer\target\classes started by nermine.alayeb in C:\Users\nermine.alayeb\Desktop\log-beanie-viewer)
+2024-09-17 12:55:31 - No active profile set, falling back to 1 default profile: "default"
+2024-09-17 12:55:31 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-09-17 12:55:41 - Tomcat initialized with port 8080 (http)
+2024-09-17 12:55:41 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-09-17 12:55:41 - Starting service [Tomcat]
+2024-09-17 12:55:41 - Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-17 12:55:41 - Initializing Spring embedded WebApplicationContext
+2024-09-17 12:55:41 - Root WebApplicationContext: initialization completed in 9865 ms
+2024-09-17 12:55:41 - Mapping filters: characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2024-09-17 12:55:41 - Mapping servlets: dispatcherServlet urls=[/]
+2024-09-17 12:55:41 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'logController': Unsatisfied dependency expressed through field 'logRepository': No qualifying bean of type 'LogBeanieView.LogBeanieView.repositories.LogRepository' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2024-09-17 12:55:41 - Stopping service [Tomcat]
+2024-09-17 12:55:41 - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-09-17 12:55:41 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field logRepository in LogBeanieView.LogBeanieView.controllers.LogController required a bean of type 'LogBeanieView.LogBeanieView.repositories.LogRepository' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'LogBeanieView.LogBeanieView.repositories.LogRepository' in your configuration.
+
+2024-09-17 12:56:51 - Starting LogBeanieViewApplication using Java 17.0.12 with PID 24404 (C:\Users\nermine.alayeb\Desktop\log-beanie-viewer\target\classes started by nermine.alayeb in C:\Users\nermine.alayeb\Desktop\log-beanie-viewer)
+2024-09-17 12:56:51 - No active profile set, falling back to 1 default profile: "default"
+2024-09-17 12:56:51 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-09-17 12:57:01 - Tomcat initialized with port 8080 (http)
+2024-09-17 12:57:01 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-09-17 12:57:01 - Starting service [Tomcat]
+2024-09-17 12:57:01 - Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-17 12:57:01 - Initializing Spring embedded WebApplicationContext
+2024-09-17 12:57:01 - Root WebApplicationContext: initialization completed in 9632 ms
+2024-09-17 12:57:01 - Mapping filters: characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2024-09-17 12:57:01 - Mapping servlets: dispatcherServlet urls=[/]
+2024-09-17 12:57:01 - 3 mappings in 'requestMappingHandlerMapping'
+2024-09-17 12:57:01 - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2024-09-17 12:57:01 - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-09-17 12:57:01 - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-09-17 12:57:01 - LiveReload server is running on port 35729
+2024-09-17 12:57:01 - Starting ProtocolHandler ["http-nio-8080"]
+2024-09-17 12:57:01 - Tomcat started on port 8080 (http) with context path '/'
+2024-09-17 12:57:01 - Started LogBeanieViewApplication in 10.505 seconds (process running for 11.106)
+2024-09-17 12:57:01 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-17 12:57:01 - Initializing Servlet 'dispatcherServlet'
+2024-09-17 12:57:01 - Detected StandardServletMultipartResolver
+2024-09-17 12:57:01 - Detected AcceptHeaderLocaleResolver
+2024-09-17 12:57:01 - Detected FixedThemeResolver
+2024-09-17 12:57:01 - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@448b64bb
+2024-09-17 12:57:01 - Detected org.springframework.web.servlet.support.SessionFlashMapManager@71d56790
+2024-09-17 12:57:01 - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2024-09-17 12:57:01 - Completed initialization in 2 ms
+2024-09-17 12:57:01 - GET "/view-logs", parameters={}
+2024-09-17 12:57:01 - Mapped to LogBeanieView.LogBeanieView.controllers.LogViewController#viewLogs(Model)
+2024-09-17 12:57:01 - Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/png, image/svg+xml, application/xml;q=0.9, */*;q=0.8]
+2024-09-17 12:57:02 - GET "/css/styles.css", parameters={}
+2024-09-17 12:57:02 - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2024-09-17 12:57:02 - Completed 200 OK
+2024-09-17 12:57:02 - Completed 200 OK
+2024-09-17 13:01:57 - Could not detect default configuration classes for test class [LogBeanieView.LogBeanieView.LogBeanieViewApplicationTests]: LogBeanieViewApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-09-17 13:01:57 - Found @SpringBootConfiguration LogBeanieView.LogBeanieView.LogBeanieViewApplication for test class LogBeanieView.LogBeanieView.LogBeanieViewApplicationTests
+2024-09-17 13:01:57 - Restart disabled due to context in which it is running
+2024-09-17 13:01:58 - Starting LogBeanieViewApplicationTests using Java 17.0.12 with PID 34320 (started by nermine.alayeb in C:\Users\nermine.alayeb\Desktop\log-beanie-viewer)
+2024-09-17 13:01:58 - No active profile set, falling back to 1 default profile: "default"
+2024-09-17 13:01:58 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@78c7f9b3
+2024-09-17 13:01:59 - 3 mappings in 'requestMappingHandlerMapping'
+2024-09-17 13:01:59 - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2024-09-17 13:01:59 - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-09-17 13:01:59 - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-09-17 13:01:59 - Started LogBeanieViewApplicationTests in 1.522 seconds (process running for 2.485)
+2024-09-17 13:02:08 - Closing org.springframework.web.context.support.GenericWebApplicationContext@78c7f9b3, started on Tue Sep 17 13:01:58 GMT+01:00 2024
+2024-09-17 14:22:48 - Could not detect default configuration classes for test class [LogBeanieView.LogBeanieView.LogBeanieViewApplicationTests]: LogBeanieViewApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-09-17 14:22:48 - Found @SpringBootConfiguration LogBeanieView.LogBeanieView.LogBeanieViewApplication for test class LogBeanieView.LogBeanieView.LogBeanieViewApplicationTests
+2024-09-17 14:22:49 - Restart disabled due to context in which it is running
+2024-09-17 14:22:49 - Starting LogBeanieViewApplicationTests using Java 17.0.12 with PID 14908 (started by nermine.alayeb in C:\Users\nermine.alayeb\Desktop\log-beanie-viewer)
+2024-09-17 14:22:49 - No active profile set, falling back to 1 default profile: "default"
+2024-09-17 14:22:49 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@78c7f9b3
+2024-09-17 14:22:50 - 3 mappings in 'requestMappingHandlerMapping'
+2024-09-17 14:22:50 - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2024-09-17 14:22:50 - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-09-17 14:22:50 - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-09-17 14:22:50 - Started LogBeanieViewApplicationTests in 1.493 seconds (process running for 2.453)
+2024-09-17 14:22:59 - Closing org.springframework.web.context.support.GenericWebApplicationContext@78c7f9b3, started on Tue Sep 17 14:22:49 GMT+01:00 2024
+2024-09-17 14:24:38 - Could not detect default configuration classes for test class [LogBeanieView.LogBeanieView.LogBeanieViewApplicationTests]: LogBeanieViewApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-09-17 14:24:38 - Found @SpringBootConfiguration LogBeanieView.LogBeanieView.LogBeanieViewApplication for test class LogBeanieView.LogBeanieView.LogBeanieViewApplicationTests
+2024-09-17 14:24:39 - Restart disabled due to context in which it is running
+2024-09-17 14:24:39 - Starting LogBeanieViewApplicationTests using Java 17.0.12 with PID 3820 (started by nermine.alayeb in C:\Users\nermine.alayeb\Desktop\log-beanie-viewer)
+2024-09-17 14:24:39 - No active profile set, falling back to 1 default profile: "default"
+2024-09-17 14:24:40 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@78c7f9b3
+2024-09-17 14:24:41 - 3 mappings in 'requestMappingHandlerMapping'
+2024-09-17 14:24:41 - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2024-09-17 14:24:41 - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-09-17 14:24:41 - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-09-17 14:24:41 - Started LogBeanieViewApplicationTests in 2.524 seconds (process running for 4.145)
+2024-09-17 14:24:51 - Closing org.springframework.web.context.support.GenericWebApplicationContext@78c7f9b3, started on Tue Sep 17 14:24:40 GMT+01:00 2024
+2024-09-17 14:29:55 - Starting LogBeanieViewApplication using Java 17.0.12 with PID 17740 (C:\Users\nermine.alayeb\Desktop\log-beanie-viewer\target\classes started by nermine.alayeb in C:\Users\nermine.alayeb\Desktop\log-beanie-viewer)
+2024-09-17 14:29:55 - No active profile set, falling back to 1 default profile: "default"
+2024-09-17 14:29:55 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-09-17 14:30:04 - Tomcat initialized with port 8080 (http)
+2024-09-17 14:30:04 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-09-17 14:30:04 - Starting service [Tomcat]
+2024-09-17 14:30:04 - Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-17 14:30:04 - Initializing Spring embedded WebApplicationContext
+2024-09-17 14:30:04 - Root WebApplicationContext: initialization completed in 9702 ms
+2024-09-17 14:30:04 - Mapping filters: characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2024-09-17 14:30:04 - Mapping servlets: dispatcherServlet urls=[/]
+2024-09-17 14:30:05 - 3 mappings in 'requestMappingHandlerMapping'
+2024-09-17 14:30:05 - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2024-09-17 14:30:05 - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-09-17 14:30:05 - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-09-17 14:30:05 - LiveReload server is running on port 35729
+2024-09-17 14:30:05 - Starting ProtocolHandler ["http-nio-8080"]
+2024-09-17 14:30:05 - Tomcat started on port 8080 (http) with context path '/'
+2024-09-17 14:30:05 - Started LogBeanieViewApplication in 10.519 seconds (process running for 11.04)
+2024-09-17 14:30:05 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-17 14:30:05 - Initializing Servlet 'dispatcherServlet'
+2024-09-17 14:30:05 - Detected StandardServletMultipartResolver
+2024-09-17 14:30:05 - Detected AcceptHeaderLocaleResolver
+2024-09-17 14:30:05 - Detected FixedThemeResolver
+2024-09-17 14:30:05 - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@341428d4
+2024-09-17 14:30:05 - Detected org.springframework.web.servlet.support.SessionFlashMapManager@7eebe70
+2024-09-17 14:30:05 - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2024-09-17 14:30:05 - Completed initialization in 1 ms
+2024-09-17 14:30:05 - GET "/view-logs", parameters={}
+2024-09-17 14:30:05 - Mapped to LogBeanieView.LogBeanieView.controllers.LogViewController#viewLogs(Model)
+2024-09-17 14:30:05 - Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/png, image/svg+xml, application/xml;q=0.9, */*;q=0.8]
+2024-09-17 14:30:05 - GET "/css/styles.css", parameters={}
+2024-09-17 14:30:05 - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2024-09-17 14:30:06 - Completed 200 OK
+2024-09-17 14:30:06 - Completed 200 OK
+2024-09-17 15:00:58 - Could not detect default configuration classes for test class [LogBeanieView.LogBeanieView.LogBeanieViewApplicationTests]: LogBeanieViewApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-09-17 15:00:58 - Found @SpringBootConfiguration LogBeanieView.LogBeanieView.LogBeanieViewApplication for test class LogBeanieView.LogBeanieView.LogBeanieViewApplicationTests
+2024-09-17 15:00:59 - Restart disabled due to context in which it is running
+2024-09-17 15:00:59 - Starting LogBeanieViewApplicationTests using Java 17.0.12 with PID 3628 (started by nermine.alayeb in C:\Users\nermine.alayeb\Desktop\log-beanie-viewer)
+2024-09-17 15:00:59 - No active profile set, falling back to 1 default profile: "default"
+2024-09-17 15:00:59 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@78c7f9b3
+2024-09-17 15:01:00 - 3 mappings in 'requestMappingHandlerMapping'
+2024-09-17 15:01:00 - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2024-09-17 15:01:00 - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-09-17 15:01:00 - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-09-17 15:01:00 - Started LogBeanieViewApplicationTests in 1.785 seconds (process running for 2.748)
+2024-09-17 15:01:10 - Closing org.springframework.web.context.support.GenericWebApplicationContext@78c7f9b3, started on Tue Sep 17 15:00:59 GMT+01:00 2024
+2024-09-17 15:50:07 - Could not detect default configuration classes for test class [LogBeanieView.LogBeanieView.LogBeanieViewApplicationTests]: LogBeanieViewApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-09-17 15:50:07 - Found @SpringBootConfiguration LogBeanieView.LogBeanieView.LogBeanieViewApplication for test class LogBeanieView.LogBeanieView.LogBeanieViewApplicationTests
+2024-09-17 15:50:07 - Restart disabled due to context in which it is running
+2024-09-17 15:50:07 - Starting LogBeanieViewApplicationTests using Java 17.0.12 with PID 20100 (started by nermine.alayeb in C:\Users\nermine.alayeb\Desktop\log-beanie-viewer)
+2024-09-17 15:50:07 - No active profile set, falling back to 1 default profile: "default"
+2024-09-17 15:50:07 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@78c7f9b3
+2024-09-17 15:50:08 - 3 mappings in 'requestMappingHandlerMapping'
+2024-09-17 15:50:08 - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2024-09-17 15:50:08 - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-09-17 15:50:09 - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-09-17 15:50:09 - Started LogBeanieViewApplicationTests in 1.521 seconds (process running for 2.462)
+2024-09-17 15:50:18 - Closing org.springframework.web.context.support.GenericWebApplicationContext@78c7f9b3, started on Tue Sep 17 15:50:07 GMT+01:00 2024

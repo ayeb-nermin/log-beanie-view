@@ -1,0 +1,77 @@
+/* Basic reset */
+body, h1, pre {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Container styles */
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    overflow: hidden; /* Ensure no content overflows the container */
+}
+
+/* Heading styles */
+h1 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Log entry styles */
+.log-entries {
+    margin-top: 20px;
+}
+
+.log-entry {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    overflow: hidden; /* Ensure content doesn't exceed borders */
+}
+
+.log-entry pre {
+    margin: 0;
+    white-space: pre-wrap; /* Preserve whitespace and line breaks */
+    word-wrap: break-word; /* Ensure long words break and wrap */
+    overflow-wrap: break-word; /* Handle long lines properly */
+    color: #000;
+}
+
+/* Additional styling */
+.log-entry:nth-child(odd) {
+    background-color: #f9f9f9;
+}
+
+.log-entry:nth-child(even) {
+    background-color: #fff;
+}
+
+/* Error log entry styling */
+.error {
+    background-color: #fdd;
+    border-left: 5px solid #d9534f; /* Red border for error logs */
+    padding: 10px;
+    border-radius: 5px;
+    color: #d9534f; /* Red text for error logs */
+    overflow: hidden; /* Ensure no content overflows the border */
+}
+
+.success {
+    background-color: #d4edda; /* Light green background */
+    border-left: 5px solid #28a745; /* Darker green border */
+    padding: 10px;
+    border-radius: 5px;
+    color: #155724; /* Dark green text color */
+    overflow: hidden; /* Ensure no content overflows the border */
+}

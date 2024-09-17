@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Logs</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+<div class="container">
+    <h1>Log Beanie View</h1>
+    <div class="log-entries">
+        <div th:each="log : ${logs}"
+             th:class="${log.contains('ERROR') ? 'error' : (log.contains('200 OK') ? 'success' : '')}"
+             class="log-entry">
+            <pre th:text="${log}"></pre>
+        </div>
+
+    </div>
+</div>
+</body>
+</html>

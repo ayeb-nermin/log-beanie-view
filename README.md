@@ -1,1 +1,2 @@
-# log-beanie-view
+# LogBeanieViewer
+
